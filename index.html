@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Git POC</title>
+    <title>Guessing Game</title>
+    <script type="text/javascript">
+    console.log("Starting 'Welcome' message...");
+    var userName = prompt("Greetings, salutations and welcome! What is your name?", "");
+    console.log("Received user name", userName);
+    var today= new Date();
+    console.log("Today is: "+today);
+    var message = "Welcome to my world " + userName + "!\nToday is: " + today.toDateString();
+    console.log("Message given to user: "+ message);
+    alert(message);
+    console.log("Starting series of questions...");
+    var travelStatus = prompt("Do I like to travel?", "yes/no");
+    if(travelStatus == "yes" || travelStatus == "Yes") {
+      alert("Absolutely!  I love to travel.");
+    } else {
+      alert("You don't know me!");
+    }
+    var beverageStatus = prompt("Which beverage do I like?", "coffee, whiskey, or beer");
+    if(beverageStatus == "coffee" || beverageStatus == "whiskey"){
+      alert("You know me so well!");
+    } else {
+      alert("No way!  Beer is too hoppy for me in Portland!");
+    }
+    var vehicleStatus = prompt("Have I ridden my 1980 Vespa P200 across the US?", "yes/no");
+    if(vehicleStatus == "yes" || vehicleStatus == "Yes"){
+      alert("Yes, I did. In 2006.  Over 10 days.");
+    } else {
+      alert("Beep!  Wrong Answer!");
+    }
+    </script>
   </head>
-  <body>
-    <h1>GIT POC</h1>
-    <p>Adding more stuff here.</p>
-  </body>
+    <body>
+      <h1>Welcome to My Personal Page</h1>
+      <h3>Would you like to know more?  Here you go!</h3>
+      <h4>My name is Heather.  Here is a short bio.</h4>
+      <p>I am a lifelong Oregonian since the wee age of 2 years old. I like baby goats, whiskey, coffee and traveling the world.  I have walked the Camino de Santiago twice.  I rode my 1980 P200 Vespa motorscooter across the US once.  I love to backpack, hike and camp. I recently had a website go semi-viral.  Check it out here: <a href="https://www.datealesbianadventurer.com">Date A Lesbian Adventurer</a></p>
+      <hr>
+      <h4>Coding Experience</h4>
+      <ul>
+        <li>Intro to Coding</li>
+        <li>A little bit of Treehouse</li>
+        <li>A little bit of Learn/Flatiron</li>
+      </ul>
+      <hr>
+      <h4>Education</h4>
+      <ul>
+        <li>High School graduate</li>
+        <li>College Dropout</li>
+        <li>I like to listen to podcasts and read a lot.  Lifelong learner here.</li>
+      </ul>
+      <hr>
+      <h4>Goals</h4>
+      <ul>
+        <li>Learn how to code</li>
+        <li>Be proficient so I can make my own app and websites</li>
+        <li>Work in Product or Web Development</li>
+      </ul>
+    </body>
 </html>
