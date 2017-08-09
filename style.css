@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h4 {
+  text-align: left;
+  color: green;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  color: rgb(206, 78, 4);
+}
+
+
+a {
+  color: blue;
+}

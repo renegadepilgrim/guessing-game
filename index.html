@@ -1,37 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Guessing Game</title>
-    <script type="text/javascript" src="game.js"></script>
-    <script type="text/javascript">
-    console.log("Starting 'Welcome' message...");
-    var userName = prompt("Greetings, salutations and welcome! What is your name?", "");
-    console.log("Received user name", userName);
-    var today= new Date();
-    console.log("Today is: "+today);
-    var message = "Welcome to my world " + userName + "!\nToday is: " + today.toDateString();
-    console.log("Message given to user: "+ message);
-    alert(message);
-    console.log("Starting series of questions...");
-    var travelStatus = prompt("Do I like to travel?", "yes/no");
-    if(travelStatus == "yes" || travelStatus == "Yes") {
-      alert("Absolutely!  I love to travel.");
-    } else {
-      alert("You don't know me!");
-    }
-    var beverageStatus = prompt("Which beverage do I like?", "coffee, whiskey, or beer");
-    if(beverageStatus == "coffee" || beverageStatus == "whiskey"){
-      alert("You know me so well!");
-    } else {
-      alert("No way!  Beer is too hoppy for me in Portland!");
-    }
-    var vehicleStatus = prompt("Have I ridden my 1980 Vespa P200 across the US?", "yes/no");
-    if(vehicleStatus == "yes" || vehicleStatus == "Yes"){
-      alert("Yes, I did. In 2006.  Over 10 days.");
-    } else {
-      alert("Beep!  Wrong Answer!");
-    }
-    </script>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
     <body>
       <h1>Welcome to My Personal Page</h1>
