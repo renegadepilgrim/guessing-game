@@ -7,8 +7,10 @@
     <body>
       <h1>Welcome to My Personal Page</h1>
       <h3>Would you like to know more?  Here you go!</h3>
+      <img src="img/Headshot.jpg" height="200px" width="200px">
       <h4>My name is Heather.  Here is a short bio.</h4>
-      <p>I am a lifelong Oregonian since the wee age of 2 years old. I like baby goats, whiskey, coffee and traveling the world.  I have walked the Camino de Santiago twice.  I rode my 1980 P200 Vespa motorscooter across the US once.  I love to backpack, hike and camp. I recently had a website go semi-viral.  Check it out here: <a href="https://www.datealesbianadventurer.com">Date A Lesbian Adventurer</a></p>
+      <p>I am a lifelong Oregonian since the wee age of 2 years old. I like baby goats, whiskey, coffee and traveling the world.  I have walked the Camino de Santiago twice.  I rode my 1980 P200 Vespa motorscooter across the US once.  See the photo below of me at Teton Pass in Wyoming. I love to backpack, hike and camp. I recently had a website go semi-viral.  Check it out here: <a href="https://www.datealesbianadventurer.com">Date A Lesbian Adventurer</a></p>
+      <img src="img/SCBR 2006.jpg">
       <hr>
       <h4>Coding Experience</h4>
       <ul>
@@ -31,17 +33,18 @@
         <li>Work in Product or Web Development</li>
       </ul>
       <h4>Let's play a guessing game!</h4>
+      <h5> Click on the button below to answer the questions. The answers will appear once you are done!</h5>
       <div id="result-section"></div>
       <input type="button" value="Click here to start" onclick="guessingGame()">
       <br>
       <ul>
-        <li><div id=answerOne></div></li>
-        <li><div id=answerTwo></div></li>
-        <li><div id=answerThree></div></li>
-        <li><div id=answerFour></div></li>
-        <li><div id=answerFive></div></li>
-        <li><div id=answerSix></div></li>
-        <li><div id=scoreAnswer></div></li>  
-        <li></ul>
+        <li>Do I like to travel?<div class="ans" id=answerOne></div></li>
+        <li>Do I like coffee?<div class="ans" id=answerTwo></div></li>
+        <li>Have I ridden my 1980 Vespa P200 across the US?<div class="ans" id=answerThree></div></li>
+        <li>Did a website I create go viral recently?<div class="ans" id=answerFour></div></li>
+        <li>Do I like to hike and backpack?<div class="ans" id=answerFive></div></li>
+        <li>What is your best guess at my age?<div class="ans" id=answerSix></div></li>
+        <li>Here's the score!<div class="ans" id=scoreAnswer></div></li>
+      </ul>
     </body>
 </html>

@@ -14,7 +14,7 @@ myScore();
 function updatePage(elementId) {
   document.getElementById(elementId).innerHTML = message;
 }
-
+//question one
   function myTravel(){
     var travelStatus = prompt("Do I like to travel?");
     if(travelStatus == "yes" || travelStatus == "Yes"|| travelStatus == "YES"){
@@ -25,7 +25,7 @@ function updatePage(elementId) {
     }
     updatePage('answerOne');
   }
-
+//question two
   function myBeverage(){
     var beverageStatus = prompt("Do I like coffee?");
     if(beverageStatus == "yes" || beverageStatus == "Yes"){
@@ -36,7 +36,7 @@ function updatePage(elementId) {
     }
     updatePage('answerTwo');
   }
-
+//question three
   function myVehicle(){
     var vehicleStatus = prompt("Have I ridden my 1980 Vespa P200 across the US?");
     if(vehicleStatus == "yes" || vehicleStatus == "Yes"){
@@ -47,7 +47,7 @@ function updatePage(elementId) {
     }
     updatePage('answerThree');
   }
-
+//question four
   function myWebsite(){
     var websiteStatus = prompt("Did a website I create go viral recently?");
     if (websiteStatus == "yes" || websiteStatus == "Yes"){
@@ -58,7 +58,7 @@ function updatePage(elementId) {
     }
     updatePage('answerFour');
   }
-
+//question five
   function myHobby(){
     var hobbyStatus = prompt("Do I like to hike and backpack?");
     if (hobbyStatus == "yes" || hobbyStatus == "Yes"){
@@ -69,7 +69,7 @@ function updatePage(elementId) {
     }
     updatePage('answerFive');
   }
-
+//question six
   function myAge(){
     for (var i=0; i<1; i++){
       var ageStatus = 43;

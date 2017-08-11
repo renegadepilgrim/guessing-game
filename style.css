@@ -1,10 +1,19 @@
-h1 {
-  text-align: center;
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
+body {
+  border-style: double;
+  border-width: 5px;
+  padding: 20px;
+  border-color: black;
 }
 
-h3 {
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+h1, h3 {
   text-align: center;
   color: black;
   font-family: Helvetica, Arial, sans-serif;
@@ -12,18 +21,24 @@ h3 {
 
 h4 {
   text-align: left;
-  color: green;
+  color: rgb(1, 9, 89);
   font-family: Helvetica, Arial, sans-serif;
 }
 
-p {
+h5, p {
   text-align: left;
   color: black;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 ul {
-  color: rgb(206, 78, 4);
+  text-align: left;
+  color: rgb(8, 19, 38);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.ans {
+  color: red;
 }
 
 
