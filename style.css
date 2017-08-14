@@ -13,6 +13,16 @@ img {
     border-width: 5px;
 }
 
+img.right {
+  max-width: 100%;
+  height: auto;
+}
+
+img.wrong {
+  max-width: 100%;
+  height: auto;
+}
+
 h1, h3 {
   text-align: center;
   color: black;
