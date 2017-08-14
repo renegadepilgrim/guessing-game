@@ -3,7 +3,7 @@
 <p>This is my first project for Alchemy Code Labs, Level 201 Class.</p>
 <br>
 <h3>By Heather Knight</h3>
-<p>This is a really basic website, where I can practice my HTML and basic Javascript skills.</p>
+<p>This is a really basic website, where I can practice my HTML, CSS and basic Javascript skills.</p>
 <br>
 <h3>Known Bugs</h3>
 <p>There are no known bugs at this time.</p>
@@ -12,7 +12,7 @@
 <p>Please email me at heather.knight.pdx@gmail.com if you notice any issues.</p>
 <br>
 <h3>Technologies used</h3>
-<p>HTML, Javascript</p>
+<p>HTML, CSS, Javascript</p>
 <br>
 <h3>License</h3>
 
